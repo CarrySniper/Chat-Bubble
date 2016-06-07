@@ -48,9 +48,9 @@
     
     //需要的效果图
     CGFloat top = 15;       // 顶端盖高度
-    CGFloat bottom = 10 ;   // 底端盖高度
-    CGFloat left = 10;      // 左端盖宽度
-    CGFloat right = 30;     // 右端盖宽度
+    CGFloat bottom = 15 ;   // 底端盖高度
+    CGFloat left = 8;      // 左端盖宽度
+    CGFloat right = 25;     // 右端盖宽度
     UIEdgeInsets insets = UIEdgeInsetsMake(top, left, bottom, right);
     
     //不让图片拉伸变形 端盖(end cap)的概念 拉伸UIEdgeInsets内区域
