@@ -20,6 +20,10 @@
 
 @property (weak, nonatomic) IBOutlet UIImageView *imageView;
 
+@property (weak, nonatomic) IBOutlet UIImageView *imageV1;
+
+@property (weak, nonatomic) IBOutlet UIImageView *imageV2;
+
 @end
 
 @implementation ViewController
@@ -64,10 +68,14 @@
      UIImageResizingModeStretch：拉伸模式，通过拉伸UIEdgeInsets指定的矩形区域来填充图片
      UIImageResizingModeTile：平铺模式，通过重复显示UIEdgeInsets指定的矩形区域来填充图片
      */
-    image = [image resizableImageWithCapInsets:insets
+    UIImage *bubbleImage = [image resizableImageWithCapInsets:insets
                                   resizingMode:UIImageResizingModeStretch];
     
-    self.imageView.image = image;
+    self.imageView.image = bubbleImage;
+    
+    self.imageV1.image = bubbleImage;
+    
+    self.imageV2.image = bubbleImage;
 }
 
 - (void)didReceiveMemoryWarning {
