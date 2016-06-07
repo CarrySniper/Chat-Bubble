@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="I8h-aB-cJ6">
+                                <rect key="frame" x="20" y="20" width="280" height="128"/>
+                                <color key="backgroundColor" red="0.53004196578177565" green="1" blue="0.98559817722414911" alpha="1" colorSpace="calibratedRGB"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="FWx-o4-l77">
+                                <rect key="frame" x="20" y="156" width="100" height="100"/>
+                                <color key="backgroundColor" red="0.17718766384496076" green="1" blue="0.94761816275465149" alpha="1" colorSpace="calibratedRGB"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hkh-06-8Bm">
+                                <rect key="frame" x="20" y="264" width="60" height="60"/>
+                                <color key="backgroundColor" red="0.19116679747707721" green="0.81980174088459568" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Zu1-9X-ekg">
+                                <rect key="frame" x="20" y="332" width="30" height="30"/>
+                                <color key="backgroundColor" red="0.1686662235625731" green="0.65465626063659033" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="etg-15-ZkE">
+                                <rect key="frame" x="128" y="156" width="172" height="392"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="I8h-aB-cJ6" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="22L-t6-J6A"/>
+                            <constraint firstItem="etg-15-ZkE" firstAttribute="top" secondItem="I8h-aB-cJ6" secondAttribute="bottom" constant="8" id="7O8-w1-hgu"/>
+                            <constraint firstItem="etg-15-ZkE" firstAttribute="leading" secondItem="FWx-o4-l77" secondAttribute="trailing" constant="8" id="8uU-se-iO2"/>
+                            <constraint firstItem="Zu1-9X-ekg" firstAttribute="top" secondItem="hkh-06-8Bm" secondAttribute="bottom" constant="8" id="CXj-cP-YaW"/>
+                            <constraint firstItem="etg-15-ZkE" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="Cb5-Ot-Zcv"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="etg-15-ZkE" secondAttribute="bottom" constant="20" id="ZDv-Og-IOE"/>
+                            <constraint firstItem="hkh-06-8Bm" firstAttribute="top" secondItem="FWx-o4-l77" secondAttribute="bottom" constant="8" id="bBK-eL-Uja"/>
+                            <constraint firstItem="FWx-o4-l77" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="bOy-kU-OYk"/>
+                            <constraint firstItem="FWx-o4-l77" firstAttribute="top" secondItem="I8h-aB-cJ6" secondAttribute="bottom" constant="8" id="fD2-wy-iZr"/>
+                            <constraint firstItem="Zu1-9X-ekg" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="naM-Uv-1Pd"/>
+                            <constraint firstItem="I8h-aB-cJ6" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="uMq-PH-ZaQ"/>
+                            <constraint firstItem="hkh-06-8Bm" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="y7r-rB-EE7"/>
+                            <constraint firstItem="I8h-aB-cJ6" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="ycZ-2t-S0k"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="imageView" destination="etg-15-ZkE" id="lpq-ju-CDw"/>
+                        <outlet property="imageView1" destination="I8h-aB-cJ6" id="57y-eQ-avj"/>
+                        <outlet property="imageView2" destination="FWx-o4-l77" id="dyY-kV-Sjl"/>
+                        <outlet property="imageView3" destination="hkh-06-8Bm" id="bE1-eE-SUq"/>
+                        <outlet property="imageView4" destination="Zu1-9X-ekg" id="4sP-Eh-NdW"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="162" y="406"/>
+        </scene>
+    </scenes>
+</document>
