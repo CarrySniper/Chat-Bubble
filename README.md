@@ -4,7 +4,8 @@
 百度经验：http://jingyan.baidu.com/article/48206aeaa9035e216bd6b35a.html
 
 ##效果图
-###这是不符合的效果
-![](https://github.com/cjq002/Chat-Bubble/raw/master/IMAGE/demo1.png)
-###这是我们需要的效果
 ![](https://github.com/cjq002/Chat-Bubble/raw/master/IMAGE/demo.png)
+###效果图
+![](https://github.com/cjq002/Chat-Bubble/raw/master/IMAGE/demo1.png)
+###效果图
+![](https://github.com/cjq002/Chat-Bubble/raw/master/IMAGE/demo2.png)
