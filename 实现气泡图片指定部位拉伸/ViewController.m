@@ -65,7 +65,7 @@
      UIImageResizingModeTile：平铺模式，通过重复显示UIEdgeInsets指定的矩形区域来填充图片
      */
     image = [image resizableImageWithCapInsets:insets
-                                  resizingMode:UIImageResizingModeTile];
+                                  resizingMode:UIImageResizingModeStretch];
     
     self.imageView.image = image;
 }
