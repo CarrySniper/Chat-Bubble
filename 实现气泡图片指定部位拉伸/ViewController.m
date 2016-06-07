@@ -49,7 +49,7 @@
     //需要的效果图
     CGFloat top = 15;       // 顶端盖高度
     CGFloat bottom = 15 ;   // 底端盖高度
-    CGFloat left = 8;      // 左端盖宽度
+    CGFloat left = 8;       // 左端盖宽度
     CGFloat right = 25;     // 右端盖宽度
     UIEdgeInsets insets = UIEdgeInsetsMake(top, left, bottom, right);
     
